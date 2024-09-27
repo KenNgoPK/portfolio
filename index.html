@@ -2,43 +2,122 @@
 <html>
     <head>  
         <title> Portfolio của Ken</title>
+        <style>
+            .hinhdaidien{
+                border-color:grey;
+                border-width:3px;
+                border-style:solid;
+                border-radius:50%;
+                margin-right:500px;
+                margin-left: 10px;
+                margin-top: auto;
+                width:70px;
+                height:70px;
+                vertical-align:middle;
+                
+            }
+            .introduce{
+                font-family:verdana;
+                color: antiquewhite;
+
+            }
+            .navbar{
+                padding-top: 25px;
+            }
+            .header{
+                background-color:rgb(177, 205, 236);
+                margin-top: -20px;
+                padding-bottom: 5px;
+            }
+            .gioithieu{
+                background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            border-color: black;
+            border-style: solid;
+            border-width: 3px;
+            border-radius: 5px;
+            padding-top: 2.5px;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-bottom: 2.5px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-right: 7px;
+            }
+            .gioithieu:hover{
+            opacity: 0.6;
+            }
+            .gioithieu:active{
+            opacity: 1;
+            }
+
+        </style>
+
+
     </head>
     <body>
-        <h1>
-            Ken Ngô
-        </h1>
-        <p> 
-            <em>
-                Tôi tên là Khánh nick name của tôi là Ken
-            </em>
-        </p>
-        <p style="font-size: 20px;"> <strong> 
-             Kỹ năng </strong></p>
-        <span style="font-size: 15;"> 
-            Một vài kỹ năng cơ bản của tôi là <em>nói tiếng anh và chơi đá banh</em> 
-        </span>
-    </p>
-    <p style="font-size: 20px;"> <strong> 
-         Kinh Nghiệm </strong></p>
-    <span style="font-size: 15;"> 
-        Tôi cũng chỉ là một newbie mới dính chân vào con đường code này nên cũng không có quá nhiều kinh nghiệm về nó 
-    </span>
-    </p>
-        <p style="font-size: 20px;"> <strong> 
-             Kỹ năng </strong></p>
-        <span style="font-size: 15;"> 
-            Một vài kỹ năng cơ bản của tôi là <em>nói tiếng anh và chơi đá banh</em> 
-        </span>
-    </p>
-    <p style="font-size: 20px;"> <strong> 
-         Dự án </strong></p>
-    <span style="font-size: 15;"> 
-        Tôi chưa có quá nhiều dữ án ở hiện tại nhưng tương lai thì tôi sẽ cố gắng làm nhiều 
-    </span>
-    <p style="font-size:30px; color: gainsboro;">
-        <strong> 
-            Hãy liên hệ với chúng tôi
-        </strong>
-    </p>
+        <header class="header">
+            <h1 class="introduce">
+                <img src="image/đd.jpg" class="hinhdaidien" > Ken Ngô
+            </h1>
+            
+           
+        </header>
+
+
+        <main> 
+            <nav class="navbar"> 
+                <button class="gioithieu">Giới thiệu</button>
+                <button class="gioithieu">Kỹ năng </button>
+                <button class="gioithieu">Kinh nghiệm</button>
+                <button class="gioithieu">Dự án</button>
+            </nav> 
+            <section>
+                <div>   
+                    <p style="font-size: 20px;"> <strong> 
+                        Kỹ năng </strong></p>
+                   <span style="font-size: 15;"> 
+                       Một vài kỹ năng cơ bản của tôi là <em>nói tiếng anh và chơi đá banh</em> 
+                   </span>
+               </p>
+                </div>
+           <p style="font-size: 20px;"> <strong> 
+                Kinh Nghiệm </strong></p>
+           <span style="font-size: 15;"> 
+               Tôi cũng chỉ là một newbie mới dính chân vào con đường code này nên cũng không có quá nhiều kinh nghiệm về nó 
+           </span>
+           </p>
+            <p style="font-size: 20px;"> <strong> 
+                    Kỹ năng </strong>   
+            </p>
+            <span style="font-size: 15;"> 
+                   Một vài kỹ năng cơ bản của tôi là <em>nói tiếng anh và chơi đá banh</em> 
+            </span>
+           </p>
+           <p style="font-size: 20px;"> <strong> 
+                Dự án </strong></p>
+           <p style="font-size: 15;"> 
+               Tôi chưa có quá nhiều dữ án ở hiện tại nhưng tương lai thì tôi sẽ cố gắng làm nhiều 
+           </p>
+           <figcaption> 
+            <article>
+                <img src="image/cat1.jpg"><br>
+            </article>
+            <article>
+                <img src="image/cat22.jpg"><br>
+            </article>
+            <article>
+                <img src="image/cat3.jpg">
+            </article>
+           </figcaption>
+            </section>
+            <footer>
+            <p style="font-size:30px; color: gainsboro;">
+                <strong> 
+                    Hãy liên hệ với chúng tôi
+                </strong>
+            </p>
+            </footer>
+        </main>          
     </body>
 </html>
